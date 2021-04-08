@@ -1,0 +1,11 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "SysMango.com"
+theme: "story"
+params:
+  AuthorName: ButchLebo
+  GitHubUser: butchlebo
+  Subtitle: The gears in my mind never stop turning . . . 
+enableGitInfo: true
+enableRobotsTXT: true
+
