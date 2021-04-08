@@ -2,7 +2,7 @@ FROM alpine/git
 COPY . /data
 WORKDIR /data
 RUN rm -fR themes/*
-RUN git submodules init && git submodules update
+RUN git submodule init && git submodule update
 
 ##
 
