@@ -1,7 +1,7 @@
 ---
 title: "Sysmango Changes"
 date: 2018-11-12T12:12:21-04:00
-draft: true
+draft: false
 ---
 
 Over the last couple of months I have been thinking about how this site

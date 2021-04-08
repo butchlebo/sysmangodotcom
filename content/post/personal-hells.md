@@ -1,7 +1,7 @@
 ---
 title: "Personal Hells"
 date: 2003-10-04T00:00:00-04:00
-draft: true
+draft: false
 ---
 
 After the meeting that I just got out of, I found that I required a fair

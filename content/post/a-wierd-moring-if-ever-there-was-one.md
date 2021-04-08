@@ -1,7 +1,7 @@
 ---
 title: "A Wierd Moring if Ever There Was One"
 date: 2005-05-01T00:00:00-04:00
-draft: true
+draft: false
 ---
 
 I was up late last night. I was also up early. All of that was work

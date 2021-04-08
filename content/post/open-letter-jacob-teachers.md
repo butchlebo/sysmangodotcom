@@ -1,7 +1,7 @@
 ---
 title: "An Open Letter to Jacob's Teachers"
 date: 2015-09-09T07:36:26-04:00
-draft: true
+draft: false
 ---
 
 Unlike the letter that I wrote for Sam, this letter to Jacob's teachers

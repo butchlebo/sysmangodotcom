@@ -1,7 +1,7 @@
 ---
 title: "Existential Poetry From Cryptographic Applications"
 date: 2004-06-05T07:28:47-04:00
-draft: true
+draft: false
 ---
 
 The wisdom one finds in key fingerprints:

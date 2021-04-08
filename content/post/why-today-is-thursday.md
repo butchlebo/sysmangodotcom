@@ -1,7 +1,7 @@
 ---
 title: "Why Today Is Thursday"
 date: 2008-05-17hT07:31:33-04:00
-draft: true
+draft: false
 ---
 
 Let me start by saying that you are sitting there, looking at the date

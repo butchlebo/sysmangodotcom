@@ -1,7 +1,7 @@
 ---
 title: "Rescuing Some Posts"
 date: 2016-06-02T12:13:11-04:00
-draft: true
+draft: false
 ---
 
 As I mentioned in the [yesterday's post](http://sysmango.com/node/1),

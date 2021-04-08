@@ -1,7 +1,7 @@
 ---
 title: "Sams First Day 9th Grade"
 date: 2013-09-03T07:34:13-04:00
-draft: true
+draft: false
 ---
 
 Today was the first day of school here in Virginia Beach.
