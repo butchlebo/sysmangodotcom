@@ -8,4 +8,5 @@ params:
   Subtitle: The gears in my mind never stop turning . . . 
 enableGitInfo: true
 enableRobotsTXT: true
+googleAnalytics: UA-4643595-2
 
