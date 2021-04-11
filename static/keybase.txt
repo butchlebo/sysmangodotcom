@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/butchlebo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sysmango.com
+  * I am butchlebo (https://keybase.io/butchlebo) on keybase.
+  * I have a public key with fingerprint F045 8706 C167 1D1C E708  2BA1 89B5 4402 2222 E9A9
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014921c140aa84fca24c19c4f743831f45dffa0fd98aa3a73bb45db9d9edf892ec0a",
+            "fingerprint": "f0458706c1671d1ce7082ba189b544022222e9a9",
+            "host": "keybase.io",
+            "key_id": "89b544022222e9a9",
+            "kid": "01014921c140aa84fca24c19c4f743831f45dffa0fd98aa3a73bb45db9d9edf892ec0a",
+            "uid": "09fd7bc21e0cc35cf3379ebd829f7119",
+            "username": "butchlebo"
+        },
+        "revoke": {
+            "sig_ids": [
+                "ab333418a142baea4edcae38f901519bc3c5006b5ab4edfd0afb4ab355e6ca280f"
+            ]
+        },
+        "service": {
+            "hostname": "sysmango.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1464875163,
+    "expire_in": 157680000,
+    "prev": "abf735495db821aba5690b317eca32c259505df85f86ea6316c707b398a8851c",
+    "seqno": 18,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMJvAnicrVJdiFVVFL7jzDg6FQzIDX+b4TA1idOw99l7n7P37SVBQhQjEjEa7bJ/
+7z1z595z55xzR6dBrBwnksCsIEwJJCRNCiLMTMFRRLQpBU1BffAP1Af/RkUJYXKf
+Ud96bL1s9lrf+ta3fg6/UJ9prrv7/JTV6sS81+pGD96vZZa/TbcMOiJUA05u0Cnp
+iUf3Kh0n+VKgnJwDIICYuVBCDDin2EjuYgmZxMbHiCJoMFHGcGAUo5wj7iMhrEsw
+xbQylLlaAu50OiaoFHRUjYJKYmkNwIT6wJPQ86GCUvuAuoJDygTBGLipacaZTSyG
+cZphxQke664gtD77yU/I+w/8/6y79oSOGeUL6UINpEREGoR8poWiLjM+hGndWqyj
+Ci9rixa1RBZ7tQidNZ1OpPvDkk4HGwcFqzp2ct0OFwghDCmH2LatOdZKco2oYQAS
+yIREkgDgCcKFDRkFuBHYJhGiPdsJBcZZabltyf5ATpCnY3paPh6Iy7xSCLtkWLbC
+qlGYhDLstZFiklRzqahkoJoiV2mRf8qRF0FF2R3ZhH4dxUFYcXLQImUSpKQQe5j6
+BHqo09Grq0Gk80GKIL5HgbW0jO63lFwYHxHM7CipC7ngxGNAIOhryZErXcIIsJOn
+xFBPcw9BT/rAF8hugVICpZN21VcJLTe1OnkhbSgoVHhSi7Sz5tDIioZMXXNmcuOk
+9HgzzVNbnp301S+b/u1ZdGbvEbyi/eGmayNb1p6lO5d+Na6al7Ilcs/W7QtGPts5
+9/LnH+W/Mz+9uLypberr08v7os2vjk+6Ov9wx60dXnfLsGl/69aDU9m16775tP7S
+0Lli3DA4vGzb0frdbPtoz/R447H1pSU/g8ZNK8/DrutXhhbP71kwbT1/uHDhjIZ1
+A3TrK6fHsy+9f+de2w7y3m+7L/y6YUbrwU9u//PH7F9+nNZ4/Pauvjc7TpavKNX7
+9fkPR76YfXH475uPbrxbyC46OX5tyvd9+T11P7S9M8RfXuYf2DDr1Leti7Puc4+6
+WvL3P+5u2jZn/+Z41AW7jpTGfidjgxvvZedcbz3X/ufYoeLMjuN/Tf7gjROPAcWK
+WcY=
+=IK7g
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/butchlebo
+
+==================================================================
+

@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/butchlebo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sysmango.com
+  * I am butchlebo (https://keybase.io/butchlebo) on keybase.
+  * I have a public key with fingerprint 6C92 8D89 0569 25E1 515F  3075 1D42 642E 7A00 92CB
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101dd5b0e5e420a162b667746839c894a5a2d006387bfa82e91842f7244c604d6fb0a",
+            "fingerprint": "6c928d89056925e1515f30751d42642e7a0092cb",
+            "host": "keybase.io",
+            "key_id": "1d42642e7a0092cb",
+            "kid": "0101dd5b0e5e420a162b667746839c894a5a2d006387bfa82e91842f7244c604d6fb0a",
+            "uid": "09fd7bc21e0cc35cf3379ebd829f7119",
+            "username": "butchlebo"
+        },
+        "service": {
+            "hostname": "sysmango.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1483770672,
+    "expire_in": 157680000,
+    "prev": "9abe0fd5cfc64c59355d1139f8fad8243d6313e3bffa3f44a42b6f4d4b39bc3b",
+    "seqno": 35,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owGtUltIFUEYPprdJCuQIKGXsw+FcTjM7szs7hzIDKFeNMuCiorDzs7scb2cPe7u
+Od6SiiiyCxYmEZTdqKRIKAyiGxYmhRDRhYqiAi2UwkC6GBg1W/bWY/MyzD/f9833
+fcyBvCmh7Kwvg2eYNa9va9bACA2tT+3FzRJ1WKMUa5aq+e+N1zDu+fFqm0kxCchA
+ZgxTwDFHCjBkVaGqqmlI1SExdYIMbCgMABXqGrUMXeFE1pFiaQpCpgoQUy0KDCki
+WXYywd2Uayd9IauaRNGZTgBWiYK5jGVsQaBhmSFFRQrXDACIYlJBrHS8gCHMUcPj
+UdsRM3GI/7b3D/x/9p3+I0csplFTkTkwTYhNC0KNcMp0hViaLJMA6HE3adRygaZp
+36ys4dSRWiKSGGdskwfNBlEmIV6jV2skE07UdGoFOeU6vmM6NeKm0vdTsYDoN6YC
+ZD2n8UmNOLWTTPQoCBnueraTlGKyQJq+HYjKSIeaBlRNiUi8IWW7PG4HCKypOhAr
+eIZnhCQxKAcW2yBymCoyMYEYM1mGxNItQ2RCkKlQhhxSyzKghZCBRHsWYohCQk0Y
+1OzxuqQjxSAWRo1EkMhOJA0/7XKpJbc1a0FOKCs7NG1qdvDFQrkz5/79d4dezghd
+zYxsL4xs6uk/VfVj13f94YMxr+PaubKNz9nz6NBAecfqqnPOZvVBSZSs6mp4Nbs+
+HJ448lW7XDaRv+XO4PCn8dLunrfrxxeXDN3a+Ta/qWzRgRv9LzamS/NvP1q3YVzv
+zyjTf4aX1pzsxvMLcoYmOt+4nYtPvMdNo9H8dRfbFw7nJhoLxyqKag/llbe1HyQ9
+O85O6f16s6Rq5qyi7b3L930YudSVfe30tguzDm9JLJm91kX3G+o770SKn10qKO69
+fjR8/uMxP74n3fekas4Vfdu0V4Pv4LeKe/t/yEb7wTWdx9o+d728uyIMWwuK8Ot4
+YevKp9UTpWDu0LKdx3c/bs7LGa37BQ==
+=I/Up
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/butchlebo
+
+==================================================================
+

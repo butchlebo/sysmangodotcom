@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: sysmango.com
+Token: ca4244c8ad62a5b504b79f1720a2e8a900af238be4f2c4ba1f4761a67ade7371
