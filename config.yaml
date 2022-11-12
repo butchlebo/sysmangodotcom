@@ -6,7 +6,7 @@ params:
   AuthorName: ButchLebo
   GitHubUser: butchlebo
   Subtitle: The gears in my mind never stop turning . . . 
+  googleAnalyticsID: UA-4643595-2
 enableGitInfo: true
 enableRobotsTXT: true
 googleAnalytics: UA-4643595-2
-
