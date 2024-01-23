@@ -3,6 +3,7 @@ languageCode: "en-us"
 title: "SysMango.com"
 theme: "PaperMod"
 params:
+  env: production
   AuthorName: ButchLebo
   GitHubUser: butchlebo
   Subtitle: The gears in my mind never stop turning . . . 
@@ -10,10 +11,9 @@ params:
 enableGitInfo: true
 enableRobotsTXT: true
 googleAnalytics: G-60431XR3D9
-
-
 services:
   googleAnalytics:
     ID: G-60431XR3D9
-
-
+privacy:
+    googleAnalytics:
+        disable: false
