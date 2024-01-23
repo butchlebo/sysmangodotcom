@@ -10,3 +10,10 @@ params:
 enableGitInfo: true
 enableRobotsTXT: true
 googleAnalytics: G-60431XR3D9
+
+
+services:
+  googleAnalytics:
+    ID: G-60431XR3D9
+
+
