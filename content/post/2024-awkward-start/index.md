@@ -29,7 +29,7 @@ Topics I used to post a lot about:
 
 Mostly the domain exists for to be where my email goes.  I never really thoght anyone would be reading this.  I don't have comments turned on anymore (free hosting + too much SPAM comments).  I never was trying to sell anything.  
 
-Of course, this is her, so I might as well use it agin.
+Of course, this is here, so I might as well use it agin.
 
 Let's see where this goes.
 
