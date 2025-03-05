@@ -1,7 +1,7 @@
 baseURL: "https://sysmango.com/"
 languageCode: "en-us"
 title: "SysMango.com"
-theme: "PaperMod"
+theme: "PaperModX"
 params:
   env: production
   AuthorName: ButchLebo
