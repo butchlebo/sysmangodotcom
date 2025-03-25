@@ -16,6 +16,11 @@ services:
   googleAnalytics:
     ID: G-60431XR3D9
 privacy:
-    googleAnalytics:
-        disable: false
-
+  googleAnalytics:
+    disable: false
+security:
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - '^CI$'
+      - '^FLICKR_API_KEY$'
