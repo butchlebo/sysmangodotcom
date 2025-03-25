@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: sysmangodotcom
+    env: static
+    buildCommand: hugo --minify
+    staticPublishPath: ./public
+    pullRequestPreviewsEnabled: true
+    envVars:
+      - key: HUGO_VERSION
+        value: 0.111.3
+    buildFilter:
+      paths:
+        - content/**/*
+        - static/**/*
+        - themes/**/*
+        - config.yaml
+        - config.toml
+        - config/_default/**/*
