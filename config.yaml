@@ -24,3 +24,4 @@ security:
       - '^HUGO_'
       - '^CI$'
       - '^FLICKR_API_KEY$'
+
