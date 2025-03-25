@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="/css/custom.css">
     <!-- Flickr API key configuration -->
     <script>
-        {{ if .Site.Params.flickrApiKey }}
-            // Use the configured API key from config.yaml
-            window.FLICKR_API_KEY = "{{ .Site.Params.flickrApiKey }}";
+        {{ with os.Getenv "FLICKR_API_KEY" }}
+            // Use the API key from environment variable
+            window.FLICKR_API_KEY = "{{ . }}";
         {{ else }}
-            console.warn("No Flickr API key configured. Please configure flickrApiKey in your Hugo config.");
+            console.warn("No Flickr API key found in environment. Please set the FLICKR_API_KEY environment variable.");
         {{ end }}
     </script>
 </head>
