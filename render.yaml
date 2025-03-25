@@ -8,6 +8,8 @@ services:
     envVars:
       - key: HUGO_VERSION
         value: 0.111.3
+      - key: FLICKR_API_KEY
+        sync: false
     buildFilter:
       paths:
         - content/**/*
