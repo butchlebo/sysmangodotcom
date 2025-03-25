@@ -1,13 +1,14 @@
 baseURL: "https://sysmango.com/"
 languageCode: "en-us"
 title: "SysMango.com"
-theme: "PaperModX"
+theme: "sysmango"
 params:
   env: production
   AuthorName: ButchLebo
   GitHubUser: butchlebo
   Subtitle: The gears in my mind never stop turning . . . 
   googleAnalyticsID: G-60431XR3D9
+  flickrApiKey: "ff1d1b6cf7979c1a25d742af946ce957"
 enableGitInfo: true
 enableRobotsTXT: true
 googleAnalytics: G-60431XR3D9
@@ -17,3 +18,4 @@ services:
 privacy:
     googleAnalytics:
         disable: false
+
