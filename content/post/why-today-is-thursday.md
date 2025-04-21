@@ -1,6 +1,6 @@
 ---
 title: "Why Today Is Thursday"
-date: 2008-05-17hT07:31:33-04:00
+date: 2008-05-17T07:31:33-04:00
 draft: false
 ---
 
