@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "sysmangodotcom",
+  "project_id": "f9204ef8-ecb4-4d07-9504-4461b4b2fdbb"
+}
