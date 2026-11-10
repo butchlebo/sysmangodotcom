@@ -40,3 +40,20 @@ main:focus { outline: none; }
   margin: 0;
   font: inherit;
 }
+
+/* Button: white on #4682B4 is 4.11:1; white on #2F6A99 is 5.77:1. */
+.btn {
+  background-color: #2f6a99;
+}
+
+/* Footer: white on the theme brown (#8B7355) is only 4.49:1, and the theme
+   dims the small text further with opacity. Use a slightly darker brown
+   (#7A6446, 5.62:1 with white) and keep the text at full strength. */
+footer.bg-sysmango-brown {
+  background-color: #7a6446;
+}
+
+footer .opacity-80,
+footer .opacity-70 {
+  opacity: 1;
+}
