@@ -1,0 +1,153 @@
+/*
+ * Responsive layer for the sysmango theme.
+ *
+ * The theme hard-codes `width: 65%; min-width: 960px` in several places, which
+ * forces horizontal scrolling on anything narrower than 960px. `.site-shell`
+ * keeps the desktop result identical (65% wide, never below 960px) but lets the
+ * column shrink to the viewport on small screens: min(960px, 100%) resolves to
+ * 960px on wide viewports and to the full viewport width on narrow ones.
+ *
+ * Plain CSS only. The compiled Tailwind in style.css is purged to the classes
+ * the theme already uses, so new utility classes would not exist.
+ */
+
+.site-shell {
+  width: 65%;
+  min-width: min(960px, 100%);
+}
+
+.site-rule {
+  background-color: #605338; /* sysmango-brown */
+}
+
+.site-rule--thin { height: 5px; }
+.site-rule--thick { height: 10px; }
+
+.site-banner {
+  position: relative;
+  height: 178px;
+}
+
+.site-banner img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* ---- Navigation ------------------------------------------------------- */
+
+.site-nav {
+  background-color: #d5c8c0;
+  padding: 0 1rem;
+}
+
+.site-nav__toggle {
+  display: none; /* shown only on small screens, and only when JS is running */
+}
+
+.site-nav__list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin: 0;
+  padding: 0.5rem 0;
+  list-style: none;
+}
+
+.site-nav__list li { margin: 0; }
+
+.site-nav__list a {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  color: #333333;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-nav__list a:hover { color: #605338; }
+
+.site-nav__list a[aria-current="page"] {
+  background-color: #8b7355;
+  color: #ffffff;
+}
+
+.site-nav__list a:focus-visible,
+.site-nav__toggle:focus-visible {
+  outline: 3px solid #605338;
+  outline-offset: 2px;
+}
+
+/* ---- Small screens ---------------------------------------------------- */
+
+@media (max-width: 767px) {
+  .site-banner {
+    height: auto;
+    aspect-ratio: 960 / 167; /* native banner ratio, avoids cropping the title */
+  }
+
+  .site-banner__title {
+    font-size: 1.125rem;
+  }
+
+  .js .site-nav__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 44px; /* comfortable touch target */
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #333333;
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .js .site-nav__list {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    padding: 0 0 0.5rem;
+  }
+
+  .js .site-nav.is-open .site-nav__list { display: flex; }
+
+  .site-nav__list a {
+    display: block;
+    min-height: 44px;
+    padding: 0.75rem 0.5rem;
+    font-size: 0.875rem;
+  }
+}
+
+/* ---- Sidebar "Narcissistic Vanity" photo ------------------------------ */
+/* The theme fixes the photo at 300x300 beside the blurb, which overflows
+   narrow screens. Stack them and let the photo scale down. */
+
+#flickr-latest img {
+  max-width: 100%;
+  height: auto !important;
+  aspect-ratio: 1 / 1;
+}
+
+@media (max-width: 639px) {
+  .flex-row:has(> #flickr-latest) {
+    flex-direction: column;
+  }
+
+  #flickr-latest {
+    width: 100% !important;
+    padding-right: 1rem !important;
+  }
+}
+
+/* Never let content force sideways scrolling. */
+img, svg, video { max-width: 100%; }

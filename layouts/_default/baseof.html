@@ -6,6 +6,8 @@
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/mobile.css">
+    <script>document.documentElement.classList.add('js');</script>
     <!-- Flickr API key configuration -->
     <script>
         {{ with os.Getenv "FLICKR_API_KEY" }}
