@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="/css/mobile.css">
+    <link rel="stylesheet" href="/css/overrides.css">
+    {{ partial "seo.html" . }}
     <script>document.documentElement.classList.add('js');</script>
     <!-- Flickr API key configuration -->
     <script>
@@ -19,12 +21,13 @@
     </script>
 </head>
 <body class="bg-white text-sysmango-text">
+    <a class="skip-link" href="#main">Skip to content</a>
     {{ partial "header.html" . }}
     
     <div class="container mx-auto px-4 py-8">
         <div class="flex flex-wrap -mx-4">
             <!-- Main content area -->
-            <main class="w-full lg:w-2/3 px-4">
+            <main id="main" tabindex="-1" class="w-full lg:w-2/3 px-4">
                 {{ block "main" . }}{{ end }}
             </main>
             

@@ -62,7 +62,7 @@
   display: inline-block;
   padding: 0.25rem 0.5rem;
   color: #333333;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -71,7 +71,7 @@
 .site-nav__list a:hover { color: #605338; }
 
 .site-nav__list a[aria-current="page"] {
-  background-color: #8b7355;
+  background-color: #7a6446; /* white on this is 5.6:1; #8b7355 was 4.49:1 */
   color: #ffffff;
 }
 

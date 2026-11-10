@@ -1,0 +1,42 @@
+/*
+ * Accessibility and polish overrides for the sysmango theme.
+ * Loaded after the theme's compiled CSS so these win on equal specificity.
+ */
+
+/* Skip link: off-screen until it receives keyboard focus. */
+.skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -4rem;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background: #605338;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.skip-link:focus {
+  top: 0;
+  outline: 3px solid #ffffff;
+  outline-offset: -3px;
+}
+
+/* The page's <main> is focusable only so the skip link can move focus to it;
+   don't draw a focus ring around the whole content column. */
+main:focus { outline: none; }
+
+/* Link blue: #4682B4 measures 4.11:1 on white (needs 4.5:1 for body-size
+   text). #2F6A99 measures 5.77:1 on white and 5.24:1 on the #F3F4F6 grey. */
+.text-sysmango-blue,
+.hover\:text-sysmango-blue:hover {
+  color: #2f6a99;
+}
+
+/* Site title wrapper: h1 on the home page, p elsewhere. Keep it visually
+   identical to the plain link it replaced. */
+.site-banner__heading {
+  margin: 0;
+  font: inherit;
+}

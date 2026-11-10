@@ -8,6 +8,7 @@ params:
   GitHubUser: butchlebo
   Subtitle: The gears in my mind never stop turning . . . 
   googleAnalyticsID: G-60431XR3D9
+  description: "A personal blog about technology, photography, and random thoughts."
   # Flickr API key is now set via environment variable FLICKR_API_KEY
 enableGitInfo: true
 enableRobotsTXT: true

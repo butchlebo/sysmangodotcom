@@ -7,10 +7,16 @@
     <div class="w-full bg-white">
         <div class="flex justify-center">
             <div class="site-shell site-banner">
-                <img src="/Doc14.png" alt="" width="960" height="167">
+                <picture>
+                    <source srcset="/Doc14.webp" type="image/webp">
+                    <img src="/Doc14.png" alt="" width="960" height="167" fetchpriority="high">
+                </picture>
                 <div class="absolute inset-0">
                     <div class="px-4 py-2">
-                        <a href="/" class="site-banner__title text-white text-3xl font-bold hover:opacity-90 transition inline-block mt-2 ml-2">SysMango.com</a>
+                        {{- /* The site name is the page's h1 on the home page only; inner pages have their own h1. */}}
+                        {{ if .IsHome }}<h1 class="site-banner__heading">{{ else }}<p class="site-banner__heading">{{ end }}
+                            <a href="/" class="site-banner__title text-white text-3xl font-bold hover:opacity-90 transition inline-block mt-2 ml-2">SysMango.com</a>
+                        {{ if .IsHome }}</h1>{{ else }}</p>{{ end }}
                     </div>
                 </div>
             </div>
