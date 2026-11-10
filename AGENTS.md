@@ -82,3 +82,19 @@ bd close <id>         # Complete work
 - NEVER say "ready to push when you are" - YOU must push
 - If push fails, resolve and retry until it succeeds
 <!-- END BEADS INTEGRATION -->
+
+## Beads 1.0.x Sync Model
+
+Beads 1.0.x no longer provides the older top-level `bd sync` command. Use this pattern instead:
+
+```bash
+git pull --rebase
+bd dolt pull                       # if a Dolt remote is configured
+bd export -o .beads/issues.jsonl   # refresh git-tracked issue snapshot
+git add .beads/issues.jsonl .beads/events.jsonl 2>/dev/null || true
+git commit -m "Update beads issue state"  # only when Beads files changed
+git push
+bd dolt push                       # if a Dolt remote is configured
+```
+
+Compatibility rule: when old instructions say `bd sync`, run `bd export -o .beads/issues.jsonl` for the git-tracked snapshot and use `bd dolt pull`/`bd dolt push` for the Beads database remote.

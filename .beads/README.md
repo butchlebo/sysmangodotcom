@@ -1,6 +1,6 @@
 # Beads - AI-Native Issue Tracking
 
-Welcome to Beads! This repository uses **Beads** for issue tracking - a modern, AI-native tool designed to live directly in your codebase alongside your code.
+Welcome to Beads. This repository uses **Beads 1.0.x** for issue tracking.
 
 ## What is Beads?
 
@@ -36,7 +36,7 @@ Issues in Beads are:
 - **Git-native**: Stored in Dolt database with version control and branching
 - **AI-friendly**: CLI-first design works perfectly with AI coding agents
 - **Branch-aware**: Issues can follow your branch workflow
-- **Always in sync**: Auto-syncs with your commits
+- **Explicitly synced**: JSONL snapshots are refreshed with `bd export`; database remotes use `bd dolt pull/push`
 
 ## Why Beads?
 
@@ -51,7 +51,7 @@ Issues in Beads are:
 - Fast, lightweight, and stays out of your way
 
 🔧 **Git Integration**
-- Automatic sync with git commits
+- Explicit JSONL export for git commits
 - Branch-aware issue tracking
 - Dolt-native three-way merge resolution
 
@@ -79,3 +79,19 @@ bd create "Try out Beads"
 ---
 
 *Beads: Issue tracking that moves at the speed of thought* ⚡
+
+## Beads 0.6.x to 1.0.x Command Pattern
+
+Beads 1.0.x removed the older top-level `bd sync` command. Replace it with:
+
+```bash
+git pull --rebase
+bd dolt pull                       # if configured
+bd export -o .beads/issues.jsonl
+git add .beads/issues.jsonl .beads/events.jsonl 2>/dev/null || true
+git commit -m "Update beads issue state"  # only if Beads files changed
+git push
+bd dolt push                       # if configured
+```
+
+Use `bd vc status` for local Beads database status and `bd prime` for current agent workflow context.
